@@ -1,0 +1,21 @@
+<!-- crear un circulo usando canva html-->
+<canvas id="myCanvas" width="200" height="200" style="border:1px solid #000000;"></canvas>
+<script>
+    const canvas = document.getElementById('myCanvas');
+    const ctx = canvas.getContext('2d');
+    ctx.beginPath();
+    ctx.arc(100, 100, 50, 0, 2 * Math.PI);
+    ctx.fillStyle = 'blue';
+    ctx.fill();
+    ctx.stroke();
+</script>
+
+<!-- Otro círculo de ejemplo -->
+<script>
+    // Dibuja un círculo rojo más pequeño en el canvas
+    ctx.beginPath();
+    ctx.arc(100, 100, 30, 0, 2 * Math.PI);
+    ctx.fillStyle = 'red';
+    ctx.fill();
+    ctx.stroke();
+</script>
