@@ -25,7 +25,15 @@ Markdown es un proyecto estable y ampliamente adoptado. Existen muchas implement
 - Portabilidad y compatibilidad con múltiples plataformas.
 - Conversión sencilla a HTML y otros formatos.
 
-## Limitaciones
+## Limitaciones y Oportunidades
 
-- No es adecuado para documentos con formato complejo.
-- Algunas implementaciones pueden variar en características y compatibilidad.
+- Si bien no es ideal para documentos con formato complejo, esto mantiene su simplicidad y facilidad de uso.
+- Aunque las implementaciones varían, esto ha permitido adaptaciones específicas para diferentes necesidades.
+- La simplicidad de Markdown lo hace perfecto para colaboración en equipo.
+
+## Aspectos Destacables
+
+- Excelente para flujos de trabajo ágiles y desarrollo rápido de documentación.
+- Gran comunidad de usuarios y herramientas de soporte.
+- Ideal para control de versiones por su formato de texto plano.
+- Permite concentrarse en el contenido sin distracciones de formato.
