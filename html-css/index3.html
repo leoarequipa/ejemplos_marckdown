@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Torres de Hanói</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            background-color: #f0f0f0;
+            margin: 0;
+        }
+        h1 {
+            color: #333;
+            margin-bottom: 20px;
+        }
+        .hanoi-container {
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+            width: 80%;
+            max-width: 900px;
+            height: 300px;
+            background-color: #ccc;
+            border-bottom: 10px solid #666;
+            position: relative;
+            margin-bottom: 20px;
+        }
+        .peg {
+            width: 10px;
+            height: 200px;
+            background-color: #666;
+            position: absolute;
+            bottom: 0;
+            transform: translateX(-50%);
+        }
+        .peg:nth-child(1) { left: 25%; }
+        .peg:nth-child(2) { left: 50%; }
+        .peg:nth-child(3) { left: 75%; }
+
+        .disk-stack {
+            position: absolute;
+            bottom: 0;
+            display: flex;
+            flex-direction: column-reverse;
+            align-items: center;
+            width: 100%; /* Para que los discos se centren en el poste */
+        }
+
+        .disk {
+            height: 20px;
+            background-color: #007bff;
+            border: 1px solid #0056b
